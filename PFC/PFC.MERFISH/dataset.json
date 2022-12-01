@@ -875,7 +875,7 @@
   ],
   "name": "PFC.MERFISH",
   "shortLabel": "PFC.MERFISH",
-  "radius": 2,
+  "radius": 1.5,
   "clusterField": "L3_cluster",
   "showLabels": false,
   "firstBuildTime": "2022-11-30T17:15:43.389805",
