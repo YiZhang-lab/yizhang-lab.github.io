@@ -1,0 +1,884 @@
+{
+  "fileVersions": {
+    "inMatrix": {
+      "fname": "/nfs4/chaozhang/proj/Neuron/Aritra/merFISH/cellBrowser/PFC/PFC.MERFISH/counts_exprMatrix.tsv.gz",
+      "md5": "1725a64d26",
+      "size": 6507903,
+      "mtime": "2022-11-30 22:11:55"
+    },
+    "outMatrix": {
+      "fname": "/netscr/chaozhang/public_html/pfc/PFC.MERFISH/exprMatrix.tsv.gz",
+      "md5": "1725a64d26",
+      "size": 6507903,
+      "mtime": "2022-11-30 22:14:30"
+    },
+    "inMeta": {
+      "fname": "/nfs4/chaozhang/proj/Neuron/Aritra/merFISH/cellBrowser/PFC/PFC.MERFISH/meta.tsv",
+      "md5": "4671975a87",
+      "size": 4827597,
+      "mtime": "2022-11-30 23:11:25"
+    },
+    "colors": {
+      "fname": "/nfs4/chaozhang/proj/Neuron/Aritra/merFISH/cellBrowser/PFC/PFC.MERFISH/colors.tsv",
+      "md5": "c994d7820a",
+      "size": 1086,
+      "mtime": "2022-11-30 23:01:24"
+    },
+    "outMeta": {
+      "fname": "/netscr/chaozhang/public_html/pfc/PFC.MERFISH/meta.tsv",
+      "md5": "4671975a87",
+      "size": 4827597,
+      "mtime": "2022-11-30 23:36:51"
+    },
+    "desc": {
+      "fname": "desc.conf",
+      "md5": "27ab2d89d3",
+      "size": 4230,
+      "mtime": "2022-11-30 23:13:05"
+    },
+    "conf": {
+      "fname": "/nfs4/chaozhang/proj/Neuron/Aritra/merFISH/cellBrowser/PFC/PFC.MERFISH/cellbrowser.conf",
+      "md5": "0afa60678a",
+      "size": 1270,
+      "mtime": "2022-11-30 23:12:58"
+    }
+  },
+  "matrixArrType": "Uint32",
+  "sampleCount": 59109,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 36,
+      "diffValCount": 59109,
+      "md5": "94cefc9d1e"
+    },
+    {
+      "name": "nCount_RNA",
+      "label": "nCount_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 668,
+      "md5": "92fc4e3a34"
+    },
+    {
+      "name": "nFeature_RNA",
+      "label": "nFeature_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 222,
+      "md5": "ee85efe514"
+    },
+    {
+      "name": "CellType",
+      "label": "CellType",
+      "type": "enum",
+      "colors": [
+        null,
+        "993F00",
+        "AA0DFE",
+        null,
+        "604E97",
+        "F99379",
+        "800000",
+        "FFFF33"
+      ],
+      "valCounts": [
+        [
+          "Ext",
+          27775
+        ],
+        [
+          "Endo",
+          7939
+        ],
+        [
+          "Astro",
+          6624
+        ],
+        [
+          "Inh",
+          6137
+        ],
+        [
+          "Oligo",
+          3913
+        ],
+        [
+          "Microglia",
+          3013
+        ],
+        [
+          "OPC",
+          2133
+        ],
+        [
+          "VLMC",
+          1575
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 8,
+      "md5": "8c5057c2b3"
+    },
+    {
+      "name": "subcluster",
+      "label": "subcluster",
+      "type": "enum",
+      "colors": [
+        "AA0DFE",
+        "A1CAF1",
+        "F3C300",
+        "3283FE",
+        "875692",
+        "F99379",
+        "2ED9FF",
+        "E68FAC",
+        "FE00FA",
+        "F6222E",
+        "FEAF16",
+        "16FF32",
+        "E4E1E3",
+        "85660D",
+        "C2B280",
+        "604E97",
+        "008856",
+        "FFFF33",
+        "F8A19F",
+        "F6A600",
+        "BE0032",
+        "B00068",
+        "F9BD3F",
+        "F38400",
+        "5A5156",
+        "1CFFCE",
+        "0067A5",
+        "325A9B",
+        "1C8356",
+        "90AD1C",
+        "FA0087",
+        "B3446C",
+        "C075A6",
+        "222222",
+        "AAF400",
+        "822E1C",
+        "D85FF7",
+        "683B79",
+        "1CBE4F",
+        "C4451C",
+        "B10DA1",
+        "66B0FF",
+        "B5EFB5",
+        "BDCDFF",
+        "FC1CBF",
+        "F7E1A0",
+        "3B00FB",
+        "7ED7D1",
+        "848482",
+        "1C7F93",
+        "FBE426",
+        "782AB6"
+      ],
+      "valCounts": [
+        [
+          "L6 CT 1",
+          3116
+        ],
+        [
+          "Endo 1",
+          3111
+        ],
+        [
+          "Astro 1",
+          3051
+        ],
+        [
+          "L4/5 IT 2",
+          2684
+        ],
+        [
+          "Astro 2",
+          2394
+        ],
+        [
+          "Oligo 1",
+          2302
+        ],
+        [
+          "L5 IT 3",
+          2150
+        ],
+        [
+          "Microglia 1",
+          2141
+        ],
+        [
+          "L2/3 IT 4",
+          2023
+        ],
+        [
+          "L2/3 IT 3",
+          2020
+        ],
+        [
+          "L5 ET 1",
+          1693
+        ],
+        [
+          "L4/5 IT 1",
+          1691
+        ],
+        [
+          "L2/3 IT 2",
+          1666
+        ],
+        [
+          "L6 IT 2",
+          1645
+        ],
+        [
+          "Endo 3",
+          1636
+        ],
+        [
+          "Oligo 2",
+          1611
+        ],
+        [
+          "Endo 5",
+          1610
+        ],
+        [
+          "VLMC",
+          1575
+        ],
+        [
+          "L6 CT 2",
+          1541
+        ],
+        [
+          "OPC 1",
+          1464
+        ],
+        [
+          "Endo 2",
+          1451
+        ],
+        [
+          "L5 ET 2",
+          1439
+        ],
+        [
+          "L5/6 NP",
+          1311
+        ],
+        [
+          "Astro 3",
+          1179
+        ],
+        [
+          "L2/3 IT 1",
+          1116
+        ],
+        [
+          "L5 IT 1",
+          966
+        ],
+        [
+          "Microglia 2",
+          872
+        ],
+        [
+          "L6 CT 3",
+          863
+        ],
+        [
+          "L6 IT 1",
+          779
+        ],
+        [
+          "L5 IT 2",
+          713
+        ],
+        [
+          "Pvalb 1",
+          696
+        ],
+        [
+          "OPC 2",
+          669
+        ],
+        [
+          "Pvalb 4",
+          532
+        ],
+        [
+          "Vip 2",
+          512
+        ],
+        [
+          "Pvalb 6",
+          461
+        ],
+        [
+          "Sncg 2",
+          448
+        ],
+        [
+          "Sst 4",
+          417
+        ],
+        [
+          "Sst 5",
+          406
+        ],
+        [
+          "Lamp5 3",
+          380
+        ],
+        [
+          "L6 CT 4",
+          359
+        ],
+        [
+          "Lamp5 1",
+          358
+        ],
+        [
+          "Sst 6",
+          344
+        ],
+        [
+          "Sst 1",
+          279
+        ],
+        [
+          "Sncg 1",
+          277
+        ],
+        [
+          "Pvalb 2",
+          252
+        ],
+        [
+          "Pvalb 3",
+          234
+        ],
+        [
+          "Vip 1",
+          164
+        ],
+        [
+          "Sst 2",
+          162
+        ],
+        [
+          "Endo 4",
+          131
+        ],
+        [
+          "Sst 3",
+          104
+        ],
+        [
+          "Lamp5 2",
+          81
+        ],
+        [
+          "Pvalb 5",
+          30
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 52,
+      "md5": "28a07c2d75"
+    },
+    {
+      "name": "L3_cluster",
+      "label": "L3_cluster",
+      "type": "enum",
+      "colors": [
+        "993F00",
+        "352A87",
+        "AA0DFE",
+        "F9FB0E",
+        "056EDE",
+        "604E97",
+        "089BCE",
+        "A3BD6A",
+        "F99379",
+        "33B7A0",
+        "6902A5",
+        "800000",
+        "DF6361",
+        "FFFF33",
+        "F9BD3F",
+        "0D0887",
+        "AF298F",
+        "FAA635"
+      ],
+      "valCounts": [
+        [
+          "Endo",
+          7939
+        ],
+        [
+          "L2/3 IT",
+          6825
+        ],
+        [
+          "Astro",
+          6624
+        ],
+        [
+          "L6 CT",
+          5879
+        ],
+        [
+          "L4/5 IT",
+          4375
+        ],
+        [
+          "Oligo",
+          3913
+        ],
+        [
+          "L5 IT",
+          3829
+        ],
+        [
+          "L5 ET",
+          3132
+        ],
+        [
+          "Microglia",
+          3013
+        ],
+        [
+          "L6 IT",
+          2424
+        ],
+        [
+          "Pvalb",
+          2205
+        ],
+        [
+          "OPC",
+          2133
+        ],
+        [
+          "Sst",
+          1712
+        ],
+        [
+          "VLMC",
+          1575
+        ],
+        [
+          "L5/6 NP",
+          1311
+        ],
+        [
+          "Lamp5",
+          819
+        ],
+        [
+          "Sncg",
+          725
+        ],
+        [
+          "Vip",
+          676
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 18,
+      "md5": "d3426d31b4"
+    },
+    {
+      "name": "slice",
+      "label": "slice",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 6,
+      "md5": "b9f3e9eabe"
+    },
+    {
+      "name": "PFC",
+      "label": "PFC",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Out",
+          43040
+        ],
+        [
+          "In",
+          16069
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 2,
+      "md5": "42d1e2f418"
+    },
+    {
+      "name": "CCF_metaRegion",
+      "label": "CCF_metaRegion",
+      "type": "enum",
+      "valCounts": [
+        [
+          "MOs",
+          14609
+        ],
+        [
+          "MOp",
+          11707
+        ],
+        [
+          "ILA",
+          5277
+        ],
+        [
+          "PL",
+          4950
+        ],
+        [
+          "ORBvl",
+          3494
+        ],
+        [
+          "ORBl",
+          2769
+        ],
+        [
+          "ACAd",
+          2699
+        ],
+        [
+          "ORBm",
+          2182
+        ],
+        [
+          "TTd",
+          1858
+        ],
+        [
+          "AId",
+          1706
+        ],
+        [
+          "SSp-un",
+          1121
+        ],
+        [
+          "GU",
+          976
+        ],
+        [
+          "DP",
+          961
+        ],
+        [
+          "NA",
+          938
+        ],
+        [
+          "fiber tracts",
+          873
+        ],
+        [
+          "LSr",
+          750
+        ],
+        [
+          "AONm",
+          420
+        ],
+        [
+          "AIv",
+          361
+        ],
+        [
+          "ACB",
+          287
+        ],
+        [
+          "AON",
+          265
+        ],
+        [
+          "OLF",
+          249
+        ],
+        [
+          "grey",
+          132
+        ],
+        [
+          "OT",
+          123
+        ],
+        [
+          "VL",
+          106
+        ],
+        [
+          "CTX",
+          94
+        ],
+        [
+          "AONd",
+          47
+        ],
+        [
+          "CP",
+          35
+        ],
+        [
+          "MOBgr",
+          29
+        ],
+        [
+          "MOBopl",
+          29
+        ],
+        [
+          "EPd",
+          22
+        ],
+        [
+          "MOBgl",
+          19
+        ],
+        [
+          "MOBipl",
+          7
+        ],
+        [
+          "MOB",
+          6
+        ],
+        [
+          "MOBmi",
+          4
+        ],
+        [
+          "isl",
+          3
+        ],
+        [
+          "TTv",
+          1
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 36,
+      "md5": "17f68b7287"
+    },
+    {
+      "name": "Cluster",
+      "label": "Cluster",
+      "type": "enum",
+      "colors": [
+        "993F00",
+        "352A87",
+        "AA0DFE",
+        "F9FB0E",
+        "056EDE",
+        "604E97",
+        "089BCE",
+        "A3BD6A",
+        "F99379",
+        "33B7A0",
+        "6902A5",
+        "800000",
+        "DF6361",
+        "FFFF33",
+        "F9BD3F",
+        "0D0887",
+        "AF298F",
+        "FAA635"
+      ],
+      "valCounts": [
+        [
+          "Endo",
+          7939
+        ],
+        [
+          "L2/3 IT",
+          6825
+        ],
+        [
+          "Astro",
+          6624
+        ],
+        [
+          "L6 CT",
+          5879
+        ],
+        [
+          "L4/5 IT",
+          4375
+        ],
+        [
+          "Oligo",
+          3913
+        ],
+        [
+          "L5 IT",
+          3829
+        ],
+        [
+          "L5 ET",
+          3132
+        ],
+        [
+          "Microglia",
+          3013
+        ],
+        [
+          "L6 IT",
+          2424
+        ],
+        [
+          "Pvalb",
+          2205
+        ],
+        [
+          "OPC",
+          2133
+        ],
+        [
+          "Sst",
+          1712
+        ],
+        [
+          "VLMC",
+          1575
+        ],
+        [
+          "L5/6 NP",
+          1311
+        ],
+        [
+          "Lamp5",
+          819
+        ],
+        [
+          "Sncg",
+          725
+        ],
+        [
+          "Vip",
+          676
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 18,
+      "md5": "7954749f6c"
+    }
+  ],
+  "labelField": "L3_cluster",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "Seurat umap",
+      "md5": "ac5528ae12",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "textFname": "Seurat_umap.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_1",
+      "shortLabel": "Spatial location",
+      "md5": "c8a0abdbf9",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 34,
+      "maxY": 65534,
+      "type": "Uint16",
+      "textFname": "Spatial_location.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "markers": [],
+  "quickGenes": [
+    [
+      "Cux2"
+    ],
+    [
+      "Rorb"
+    ],
+    [
+      "Fezf2"
+    ],
+    [
+      "Syt6"
+    ],
+    [
+      "Tshz2"
+    ],
+    [
+      "Otof"
+    ],
+    [
+      "Nptx2"
+    ],
+    [
+      "Gad1"
+    ],
+    [
+      "Sncg"
+    ],
+    [
+      "Mog"
+    ],
+    [
+      "Cldn5"
+    ],
+    [
+      "Ctss"
+    ],
+    [
+      "Nnat"
+    ],
+    [
+      "Cxcl12"
+    ],
+    [
+      "Kcng1"
+    ],
+    [
+      "Scn4b"
+    ],
+    [
+      "Scn1a"
+    ],
+    [
+      "Kcna2"
+    ],
+    [
+      "Kcnh5"
+    ],
+    [
+      "Nos1"
+    ]
+  ],
+  "name": "PFC.MERFISH",
+  "shortLabel": "PFC.MERFISH",
+  "radius": 2,
+  "clusterField": "L3_cluster",
+  "showLabels": false,
+  "firstBuildTime": "2022-11-30T17:15:43.389805",
+  "lastBuildTime": "2022-11-30T18:36:58.679246",
+  "md5": "868c876f26"
+}
