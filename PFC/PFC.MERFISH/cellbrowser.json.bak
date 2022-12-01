@@ -1,0 +1,45 @@
+{
+  "name": "PFC.MERFISH",
+  "shortLabel": "PFC.MERFISH",
+  "exprMatrix": "counts_exprMatrix.tsv.gz",
+  "matrices": [
+    {
+      "label": "counts",
+      "fileName": "counts_exprMatrix.tsv.gz"
+    },
+    {
+      "label": "data",
+      "fileName": "data_exprMatrix.tsv.gz"
+    },
+    {
+      "label": "scale",
+      "fileName": "scale_exprMatrix.tsv.gz"
+    }
+  ],
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "quickGenesFile": "quickGenes.csv",
+  "clusterField": "L3_cluster",
+  "labelField": "L3_cluster",
+  "enumFields": [
+    "CellType",
+    "subcluster",
+    "L3_cluster",
+    "PFC",
+    "Cluster"
+  ],
+  "coords": [
+    {
+      "file": "/nfs4/chaozhang/proj/Neuron/Aritra/merFISH/cellBrowser/PFC/PFC.MERFISH/umap.coords.tsv",
+      "shortLabel": "Seurat umap"
+    },
+    {
+      "file": "/nfs4/chaozhang/proj/Neuron/Aritra/merFISH/cellBrowser/PFC/PFC.MERFISH/location.coords.tsv",
+      "shortLabel": "Spatial location"
+    }
+  ],
+  "colors": "/nfs4/chaozhang/proj/Neuron/Aritra/merFISH/cellBrowser/PFC/PFC.MERFISH/colors.tsv",
+  "showLabels": false,
+  "radius": 2,
+  "inDir": ""
+}

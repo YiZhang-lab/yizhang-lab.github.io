@@ -1,0 +1,20 @@
+{
+  "title": "Sample Dataset description",
+  "abstract": "The prefrontal cortex (PFC) is functionally one of the most complex regions of mammalian brain. Unlike other cortical areas that process single sensory modalities (like vision, touch, smell etc.), the PFC integrates information across brain regions to regulate diverse functions ranging from cognition, emotion, executive action to even pain sensitivity. However, it is unclear how such diverse functions are organized at the cellular and circuit levels within the anatomical modules of the PFC. Here we employed spatially resolved single cell transcriptome profiling to decode PFC’s organizational heterogeneity. The results revealed that PFC has very distinct cell type composition relative to all neighboring cortical areas. Interestingly, PFC adopts specialized transcriptional features, distinct from all neighbors, with differentially express genes regulating neuronal excitability. Additionally, projections of PFC neuron subclusters to major subcortical targets are determined in a target-intrinsic fashion. These cellular and molecular features further segregated within subregions of PFC, alluding to the subregion-specific specialization of several PFC functions. Finally, to exemplify the utility of these unique cellular, molecular and projection properties, we identified distinct cell types and circuits in PFC engaging in pathogenesis of chronic pain. Collectively, we not only present a comprehensive organizational map of the PFC, critical for supporting its diverse functions, but also reveal the cluster and circuit identity of a pathway underlying chronic pain pathogenesis, which paves ways for mechanistic understanding and potential interventions.  \n",
+  "methods": "\nWe employed MERFISH, a spatially resolved single cell transcriptome method,to decode PFC’s organizational heterogeneity.\n",
+  "custom": {
+    "Author": "Yi Zhang Lab"
+  },
+  "supplFiles": [
+    {
+      "label": "Seurat 4.0.2 RDS",
+      "file": "PFC.MERFISH.rds"
+    }
+  ],
+  "inDir": "",
+  "coordFiles": [
+    "Seurat_umap.coords.tsv.gz",
+    "Spatial_location.coords.tsv.gz"
+  ],
+  "matrixFile": "/netscr/chaozhang/public_html/pfc/PFC.MERFISH/exprMatrix.tsv.gz"
+}
