@@ -5,7 +5,6 @@
   "custom": {
     "Author": "Yi Zhang Lab",
     "Data": "Example MERFISH data, cover 5 brain slices"
-    #"Cell number": "59,109 cells"
   },
   "supplFiles": [
     {
