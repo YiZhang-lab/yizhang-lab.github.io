@@ -4,8 +4,8 @@
   "methods": "\nWe employed MERFISH, a spatially resolved single cell transcriptome method,to decode PFC’s organizational heterogeneity.\n",
   "custom": {
     "Author": "Yi Zhang Lab",
-    "Data": "Example MERFISH data, cover 5 brain slices",
-    "Cell number": "59,109 cells"
+    "Data": "Example MERFISH data, cover 5 brain slices"
+    #"Cell number": "59,109 cells"
   },
   "supplFiles": [
     {
